@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useState, useEffect, useRef } from "react";
 
 import { motion } from "framer-motion";
@@ -70,7 +70,7 @@ export function HoverBorderGradient({
     >
       <div
         className={cn(
-          "w-auto text-white z-10 bg-black px-4 py-2 rounded-[inherit]",
+          "w-auto text-white z-10 bg-black px-4 py-2 ",
           className
         )}
       >
@@ -78,7 +78,7 @@ export function HoverBorderGradient({
       </div>
       <motion.div
         className={cn(
-          "flex-none inset-0 overflow-hidden absolute z-0 rounded-[inherit]"
+          "flex-none inset-0 overflow-hidden absolute z-0 "
         )}
         style={{
           filter: "blur(2px)",
@@ -94,7 +94,7 @@ export function HoverBorderGradient({
         }}
         transition={{ ease: "linear", duration: duration ?? 1 }}
       />
-      <div className="bg-black absolute z-1 flex-none inset-[2px] rounded-[100px]" />
+      <div className="bg-black absolute z-1 flex-none inset-[2px] rounded-md border-[1px] border-slate-100" />
     </Tag>
   );
 }

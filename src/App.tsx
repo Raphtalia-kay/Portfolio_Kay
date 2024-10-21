@@ -4,6 +4,7 @@
 import "./index.css";
 import HeroSection from "./components/herosection";
 import About from "./components/about";
+import Education from "./components/education";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <section>
       <HeroSection />
       <About/>
+      <Education/>
     </section>
   );
 }
