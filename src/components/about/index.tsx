@@ -1,9 +1,7 @@
-
-
 const About = () => {
   return (
     <>
-      <section className="about flex h-[650px] items-center justify-center bg-slate-900 px-28 text-white">
+      <section className="about flex h-[650px] items-center justify-center bg-black px-28 text-white">
         <div className="for-image w-[50%]"></div>
         <div className="about-me w-[50%]">
           <p className="lg:pb-2 lg:text-[13px]">Introduction</p>

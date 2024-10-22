@@ -7,8 +7,8 @@ import { cn } from "../../utils/cn";
 const HeroSectionPage = () => {
   return (
     <>
-      <div className="relative flex h-[650px] w-full flex-col items-center justify-center overflow-hidden bg-slate-900">
-        <div className="pointer-events-none absolute inset-0 z-20 h-full w-full bg-slate-900 [mask-image:radial-gradient(transparent,white)]" />
+      <div className="relative flex h-[650px] w-full flex-col items-center justify-center overflow-hidden bg-black">
+        <div className="pointer-events-none absolute inset-0 z-20 h-full w-full bg-black [mask-image:radial-gradient(transparent,white)]" />
 
         <Boxes />
         <h1
