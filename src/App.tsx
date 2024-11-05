@@ -4,7 +4,8 @@
 import "./index.css";
 import HeroSection from "./components/herosection";
 import About from "./components/about";
-import Education from "./components/education";
+import Education from "./components/journey";
+import Skills from "./components/skills";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <HeroSection />
       <About/>
       <Education/>
+      <Skills/>
     </section>
   );
 }

@@ -1,2 +1,2 @@
-import KkImg from "./kk.jpg"
+import KkImg from "./Raphtalia.png"
 export {KkImg}

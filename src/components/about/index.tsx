@@ -4,7 +4,7 @@ const About = () => {
       <section className="about flex h-[650px] items-center justify-center bg-black px-28 text-white">
         <div className="for-image w-[50%]"></div>
         <div className="about-me w-[50%]">
-          <p className="lg:pb-2 lg:text-[13px]">Introduction</p>
+          <p className="lg:pb-2 lg:text-[28px] lg:font-medium">Introduction</p>
           <div className="h-[1px] w-[40px] bg-white"></div>
           <p className="lg:pt-2 lg:text-[18px]">
             Hello! I'm a dedicated Junior Frontend Web Developer and UI/UX

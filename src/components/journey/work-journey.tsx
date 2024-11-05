@@ -4,7 +4,7 @@ const WorkJourney = () => {
   return (
     <section className="w-[50%]">
       <div className="flex flex-col items-center justify-center lg:mb-6">
-        <p className="lg:pb-2 lg:text-[13px]">Work Journey</p>
+        <p className="lg:pb-2 lg:text-[28px] lg:font-medium">Work Journey</p>
         <div className="h-[1px] w-[40px] bg-white"></div>
       </div>
 
@@ -20,7 +20,6 @@ const WorkJourney = () => {
           <div className="text-end lg:w-[300px] lg:pr-[25px]">
             <h5 className="lg:text-[20px]">IT Instructor</h5>
             <p className="lg:text-[14px]">LittleCode Lab Myanmar</p>
-          
           </div>
           <div className="">
             <div className="mx-auto flex h-[20px] w-[20px] items-center justify-center rounded-full border-2 border-white">

@@ -51,7 +51,7 @@ const NavigationBar = () => {
             direction="right"
             className="!w-[500px] !bg-gray-500 !bg-opacity-10 text-white shadow-inner backdrop-blur-sm"
           >
-            <div className=" lg:py-[100px]">
+            <div className="lg:py-[80px]">
               <h3 className="text-center lg:text-[24px]">Menu</h3>
               <div className="flex justify-center lg:pt-5">
                 <table className="w-[150px]">
@@ -98,6 +98,22 @@ const NavigationBar = () => {
                     <td>Contact Me</td>
                   </tr>
                 </table>
+              </div>
+
+              <h3 className="text-center lg:text-[24px] lg:pt-[20px]">Social Account</h3>
+              <div className="social-app flex justify-center gap-[15px] lg:pt-[28px]">
+                <a href="">
+                  <FaBehanceSquare size="25" color="white" />
+                </a>
+                <a href="">
+                  <FaLinkedin size="25" color="white" />
+                </a>
+                <a href="">
+                  <FaGithubSquare size="25" color="white" />
+                </a>
+                <a href="">
+                  <FaInstagramSquare size="25" color="white" />
+                </a>
               </div>
             </div>
           </Drawer>

@@ -4,14 +4,16 @@ const EducationJourney = () => {
   return (
     <section className="w-[50%]">
       <div className="flex flex-col items-center justify-center lg:mb-6">
-        <p className="lg:pb-2 lg:text-[13px]">Education Journey</p>
+        <p className="lg:pb-2 lg:text-[28px] lg:font-medium">
+          Education Journey
+        </p>
         <div className="h-[1px] w-[40px] bg-white"></div>
       </div>
 
-      <div className="mx-auto flex  flex-col">
+      <div className="mx-auto flex flex-col">
         <div className="">
           <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border-2">
-          <MdSchool size="20" />
+            <MdSchool size="20" />
           </div>
           <div className="mx-auto h-[50px] w-[1px] bg-white"></div>
         </div>
