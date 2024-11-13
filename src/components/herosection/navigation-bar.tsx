@@ -57,43 +57,43 @@ const NavigationBar = () => {
                 <table className="w-[150px]">
                   <tr className="">
                     <td className="lg:py-4 lg:pe-3">
-                      <FaHome size="25" color="white" />
+                      00.
                     </td>
                     <td className="">Home</td>
                   </tr>
                   <tr className="">
                     <td className="lg:py-4">
-                      <IoIosInformationCircle size="25" color="white" />
+                      01.
                     </td>
                     <td>About</td>
                   </tr>
                   <tr className="">
                     <td className="lg:py-4">
-                      <GiJourney size="25" color="white" />
+                     02.
                     </td>
                     <td>Journey</td>
                   </tr>
                   <tr className="">
                     <td className="lg:py-4">
-                      <FaLightbulb size="25" color="white" />
+                     03.
                     </td>
                     <td>Skills</td>
                   </tr>
                   <tr className="">
                     <td className="lg:py-4">
-                      <GoProjectRoadmap size="25" color="white" />
+                     04.
                     </td>
                     <td>Projects</td>
                   </tr>
                   <tr className="">
                     <td className="lg:py-4">
-                      <MdOutlineSettingsSuggest size="25" color="white" />
+                    05.
                     </td>
                     <td>Service</td>
                   </tr>
                   <tr className="">
                     <td className="lg:py-4">
-                      <MdContactMail size="25" color="white" />
+                    06.
                     </td>
                     <td>Contact Me</td>
                   </tr>

@@ -1,11 +1,15 @@
+import WhatIdo from "./what-I-do";
+
 const About = () => {
   return (
     <>
       <section className="about flex h-[650px] items-center justify-center bg-black px-28 text-white">
-        <div className="for-image w-[50%]"></div>
-        <div className="about-me w-[50%]">
-          <p className="lg:pb-2 lg:text-[28px] lg:font-medium">Introduction</p>
-          <div className="h-[1px] w-[40px] bg-white"></div>
+        <div className="for-image w-[40%]"></div>
+        <div className="about-me w-[60%]">
+          <div className="flex items-center gap-[10px]">
+            <p className="lg:pb-2 lg:text-[28px] lg:font-medium">01. About</p>
+            <div className="h-[0.5px] w-[200px] bg-gray-300 bg-opacity-50"></div>
+          </div>
           <p className="lg:pt-2 lg:text-[18px]">
             Hello! I'm a dedicated Junior Frontend Web Developer and UI/UX
             Designer, committed to designing and building user-focused, visually
@@ -20,15 +24,16 @@ const About = () => {
             brilliance together!
           </p>
           <div className="button-group flex lg:gap-4 lg:py-4">
-            <button className="w-[150px] rounded-md border-[1px] border-slate-100 bg-black bg-opacity-10 px-6 py-3 shadow-inner">
+            <button className="w-[180px] rounded-md border-[1px] border-slate-100 bg-black bg-opacity-10 px-6 py-3 shadow-inner">
               Download CV
             </button>
-            <button className="w-[150px] rounded-md border-[1px] border-slate-100 bg-black bg-opacity-10 px-6 py-3 shadow-inner">
+            <button className="w-[180px] rounded-md border-[1px] border-slate-100 bg-black bg-opacity-10 px-6 py-3 shadow-inner">
               Hire Me
             </button>
           </div>
         </div>
       </section>
+      <WhatIdo />
     </>
   );
 };

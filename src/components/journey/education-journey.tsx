@@ -5,7 +5,7 @@ const EducationJourney = () => {
     <section className="w-[50%]">
       <div className="flex flex-col items-center justify-center lg:mb-6">
         <p className="lg:pb-2 lg:text-[28px] lg:font-medium">
-          Education Journey
+          02. Education Journey
         </p>
         <div className="h-[1px] w-[40px] bg-white"></div>
       </div>
