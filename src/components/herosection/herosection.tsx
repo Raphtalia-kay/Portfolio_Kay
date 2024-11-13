@@ -16,7 +16,7 @@ const HeroSectionPage = () => {
             "relative z-20 text-xl text-white md:text-4xl lg:text-[70px]",
           )}
         >
-          Hello!! I am Raphtalia K.
+          Hello!! I am <span className="">Raphtalia K</span>
         </h1>
         <p className="relative z-20 mt-2 text-center text-neutral-300 lg:text-[40px]">
           Frontend Developer

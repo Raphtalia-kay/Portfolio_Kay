@@ -21,7 +21,7 @@ const NavigationBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 z-50 bg-red-500">
+    <nav className="fixed top-0 z-50">
       <div className="navigation-bar flex w-screen items-center justify-between bg-black px-28">
         <div className="social-app flex gap-2 pt-4">
           <a href="">
@@ -100,7 +100,9 @@ const NavigationBar = () => {
                 </table>
               </div>
 
-              <h3 className="text-center lg:text-[24px] lg:pt-[20px]">Social Account</h3>
+              <h3 className="text-center lg:pt-[20px] lg:text-[24px]">
+                Social Account
+              </h3>
               <div className="social-app flex justify-center gap-[15px] lg:pt-[28px]">
                 <a href="">
                   <FaBehanceSquare size="25" color="white" />

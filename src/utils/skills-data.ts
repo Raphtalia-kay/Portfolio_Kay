@@ -1,4 +1,4 @@
-interface Skill {
+export interface Skill {
   percentage: number;
   title: string;
   id: number;

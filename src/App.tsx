@@ -7,6 +7,8 @@ import About from "./components/about";
 import Education from "./components/journey";
 import Skills from "./components/skills";
 
+import Projects from "./components/projects";
+
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <About/>
       <Education/>
       <Skills/>
+      {/* <Service/> */}
+      <Projects/>
     </section>
   );
 }
