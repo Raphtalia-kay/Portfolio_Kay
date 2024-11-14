@@ -9,6 +9,7 @@ import Skills from "./components/skills";
 
 import Projects from "./components/projects";
 import ContactUs from "./components/contactus";
+import SkillsUiOne from "./components/skills2";
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <HeroSection />
       <About/>
       <Education/>
-      <Skills/>
+      {/* <Skills/> */}
+      <SkillsUiOne/>
       {/* <Service/> */}
       <Projects/>
       <ContactUs/>

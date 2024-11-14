@@ -5,13 +5,11 @@ const About = () => {
     <>
       <section className="about flex h-[650px] items-center justify-center bg-black px-32 text-white">
         <div className="for-image w-[40%]">
-          <div className="profile-image h-[400px] w-[400px] bg-gray-500 backdrop-blur-md  shadow-inner bg-opacity-10 rounded-md ">
-            
-          </div>
+          <div className="profile-image h-[400px] w-[400px] rounded-md bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-md hover:outline-dashed hover:outline-2 hover:outline-zinc-700"></div>
         </div>
         <div className="about-me w-[60%]">
           <div className="flex items-center gap-[10px]">
-            <p className="lg:pb-2 lg:text-[28px] lg:font-medium">01. About</p>
+            <p className="lg:pb-2 lg:text-[28px]">01. About</p>
             <div className="h-[0.5px] w-[200px] bg-gray-300 bg-opacity-50"></div>
           </div>
           <p className="lg:pt-2 lg:text-[16px]">
@@ -37,7 +35,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <WhatIdo />
+      {/* <WhatIdo /> */}
     </>
   );
 };

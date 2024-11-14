@@ -8,9 +8,7 @@ const ExperienceJourney = () => {
     <>
       <div className="w-[100%] px-20">
         <div className="flex items-center justify-center gap-[10px]">
-          <p className="lg:pb-2 lg:text-[28px] lg:font-medium">
-            02. Where I'm worked
-          </p>
+          <p className="lg:pb-2 lg:text-[28px]">02. Where I'm worked</p>
           <div className="h-[0.5px] w-[200px] bg-black bg-opacity-50"></div>
         </div>
         <div className="lower-part flex gap-[30px] pt-[40px]">
@@ -18,9 +16,10 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(1)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm  hover:bg-gray-500 hover:bg-opacity-10",
+                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
-                  "border-l-[2px] bg-gray-500 backdrop-blur-sm shadow-inner bg-opacity-10": type == 1,
+                  "border-l-[2px] bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm":
+                    type == 1,
                 },
               )}
             >
@@ -29,9 +28,9 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(2)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm  hover:bg-gray-500 hover:bg-opacity-10",
+                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
-                  "border-l-[2px]": type == 2 ,
+                  "border-l-[2px]": type == 2,
                 },
               )}
             >
@@ -40,7 +39,7 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(3)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm  hover:bg-gray-500 hover:bg-opacity-10",
+                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
                   "border-l-[2px]": type == 3,
                 },
@@ -51,7 +50,7 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(4)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm  hover:bg-gray-500 hover:bg-opacity-10",
+                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
                   "border-l-[2px]": type == 4,
                 },
@@ -62,7 +61,7 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(5)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm  hover:bg-gray-500 hover:bg-opacity-10",
+                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
                   "border-l-[2px]": type == 5,
                 },
