@@ -22,7 +22,7 @@ const NavigationBar = () => {
 
   return (
     <nav className="fixed top-0 z-50">
-      <div className="navigation-bar flex w-screen items-center justify-between bg-black px-28">
+      <div className="navigation-bar flex w-screen items-center justify-between bg-black px-32">
         <div className="social-app flex gap-2 pt-4">
           <a href="">
             <FaBehanceSquare size="25" color="white" />
@@ -44,7 +44,7 @@ const NavigationBar = () => {
             size="40"
             color="white"
           />
-          <p>introduction</p>
+         
           <Drawer
             open={isOpen}
             onClose={toggleDrawer}

@@ -2,13 +2,13 @@ import { FaCode } from "react-icons/fa6";
 const WhatIdo = () => {
   return (
     <>
-      <section className="what-I-do flex h-[650px] items-center justify-center bg-black px-28 text-white pb-[50px]">
+      <section className="what-I-do flex h-[650px] items-center justify-center bg-black px-32 pb-[50px] text-white">
         <div className="flex flex-col items-center justify-center lg:mb-6">
           <h1 className="lg:py-[10px] lg:text-[28px] lg:font-medium">
             What I do
           </h1>
           <div className="h-[1px] w-[40px] bg-white"></div>
-          <div className="pt-[40px] flex justify-center">
+          <div className="flex justify-center pt-[40px]">
             <table className="">
               <tr className="">
                 <td className="border-b-[1px] border-r-[1px]">

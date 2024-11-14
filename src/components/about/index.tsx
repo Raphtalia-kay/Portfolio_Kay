@@ -3,14 +3,18 @@ import WhatIdo from "./what-I-do";
 const About = () => {
   return (
     <>
-      <section className="about flex h-[650px] items-center justify-center bg-black px-28 text-white">
-        <div className="for-image w-[40%]"></div>
+      <section className="about flex h-[650px] items-center justify-center bg-black px-32 text-white">
+        <div className="for-image w-[40%]">
+          <div className="profile-image h-[400px] w-[400px] bg-gray-500 backdrop-blur-md  shadow-inner bg-opacity-10 rounded-md ">
+            
+          </div>
+        </div>
         <div className="about-me w-[60%]">
           <div className="flex items-center gap-[10px]">
             <p className="lg:pb-2 lg:text-[28px] lg:font-medium">01. About</p>
             <div className="h-[0.5px] w-[200px] bg-gray-300 bg-opacity-50"></div>
           </div>
-          <p className="lg:pt-2 lg:text-[18px]">
+          <p className="lg:pt-2 lg:text-[16px]">
             Hello! I'm a dedicated Junior Frontend Web Developer and UI/UX
             Designer, committed to designing and building user-focused, visually
             engaging digital experiences. Skilled in ReactJS and CSS, I
