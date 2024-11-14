@@ -8,6 +8,7 @@ import Education from "./components/journey";
 import Skills from "./components/skills";
 
 import Projects from "./components/projects";
+import ContactUs from "./components/contactus";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Skills/>
       {/* <Service/> */}
       <Projects/>
+      <ContactUs/>
     </section>
   );
 }
