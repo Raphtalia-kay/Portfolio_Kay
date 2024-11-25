@@ -1,6 +1,9 @@
+import { useState } from "react";
 import Skillbar from "./skill-bar";
+import { cn } from "../../utils/cn";
 
 const SkillsUiOne = () => {
+  const [type, setType] = useState(1);
   return (
     <>
       <section id="4" className="h-[700px] bg-black px-32 text-white">
@@ -14,34 +17,68 @@ const SkillsUiOne = () => {
 
         <div className=" ">
           <div className="tab-row flex justify-center gap-[10px]">
-            <div className="item1 w-[200px] px-[24px] py-[12px] border-b-[2px] shadow-inner backdrop-blur-sm bg-gray-500 bg-opacity-10 overflow-hidden rounded-md hover:bg-gray-500 hover:bg-opacity-10 text-center">
-              Web Development 
+            <div
+              onClick={() => setType(1)}
+              className={cn(
+                "item1 w-[200px] overflow-hidden rounded-md bg-gray-500 bg-opacity-10 px-[24px] py-[12px] text-center shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                {
+                  "border-b-[2px] bg-gray-500 bg-opacity-10": type == 1,
+                },
+              )}
+            >
+              Web Development
             </div>
-            <div className="item2 w-[200px] px-[24px]  py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10  overflow-hidden rounded-md  text-center">
+            {/* <div className="item2 w-[200px] px-[24px]  py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10  overflow-hidden rounded-md  text-center">
               UI/UX Design
-            </div>
-            <div className="item3 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10  overflow-hidden rounded-md text-center">
-             Teaching
-            </div>
-          </div>
-          <div className="tab-skills-details-bar flex gap-[40px] px-[50px] lg:pt-[40px]">
-            <div className="left-side flex-1">
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-            </div>
-            <div className="right-side flex-1">
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
-              <Skillbar title="html" percentage="95%" item="html" />
+            </div> */}
+            <div
+              onClick={() => setType(2)}
+              className={cn(
+                "item1 w-[200px] overflow-hidden rounded-md bg-gray-500 bg-opacity-10 px-[24px] py-[12px] text-center shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                {
+                  "border-b-[2px] bg-gray-500 bg-opacity-10": type == 2,
+                },
+              )}
+            >
+              Teaching
             </div>
           </div>
+          {type == 1 && (
+            <div className="tab-skills-details-bar flex gap-[40px] px-[50px] lg:pt-[40px]">
+              <div className="left-side flex-1">
+                <Skillbar title="html" percentage="95%" item="html" />
+                <Skillbar title="css" percentage="85%" item="css" />
+                <Skillbar
+                  title="javascript/typescript"
+                  percentage="95%"
+                  item="html"
+                />
+              </div>
+              <div className="right-side flex-1">
+                <Skillbar title="React" percentage="95%" item="html" />
+                <Skillbar
+                  title="Tailwind / Bootstrap"
+                  percentage="95%"
+                  item="html"
+                />
+
+                <Skillbar title="Figma" percentage="95%" item="html" />
+              </div>
+            </div>
+          )}
+          {type == 2 && (
+            <div className="tab-skills-details-bar flex gap-[40px] px-[50px] lg:pt-[40px]">
+              <div className="left-side flex-1">
+                <Skillbar title="Scratch" percentage="95%" item="html" />
+                <Skillbar title="Thunkable" percentage="85%" item="css" />
+                <Skillbar title="Web Development (Html/css/js)" percentage="85%" item="html" />
+              </div>
+              <div className="right-side flex-1">
+                <Skillbar title="Python for kids" percentage="85%" item="html" />
+                
+              </div>
+            </div>
+          )}
         </div>
       </section>
     </>

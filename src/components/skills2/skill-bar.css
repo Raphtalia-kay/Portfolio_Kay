@@ -26,13 +26,13 @@
     animation-delay: 0.1s;
   }
   .skill-bar .css {
-    width: 85%;
+    width: 95%;
     animation-delay: 0.1s;
   }
-  .skill-bar .javascript {
+  /* .skill-bar .javascript {
     width: 75%;
     animation-delay: 0.1s;
-  }
+  } */
   .skill-bar .php {
     width: 30%;
     animation-delay: 0.1s;

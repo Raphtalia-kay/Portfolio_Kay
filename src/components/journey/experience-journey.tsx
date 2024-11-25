@@ -5,11 +5,11 @@ import { journeyList } from "../../utils/journey-data";
 const ExperienceJourney = () => {
   const [type, setType] = useState(1);
 
-  console.log(
-    journeyList.map((j) => {
-      console.log(j);
-    }),
-  );
+  // console.log(
+  //   journeyList.map((j) => {
+  //     console.log(j);
+  //   }),
+  // );
 
   return (
     <>
