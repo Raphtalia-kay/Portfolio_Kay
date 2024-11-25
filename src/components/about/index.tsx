@@ -4,7 +4,7 @@ import WhatIdo from "./what-I-do";
 const About = () => {
   return (
     <>
-      <section className="about flex h-[650px] items-center justify-center bg-black px-32 text-white">
+      <section id="2" className="about flex h-[650px] items-center justify-center bg-black px-32 text-white">
         <div className="for-image w-[40%]">
           <div className="profile-image h-[400px] w-[400px] rounded-md bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-md hover:outline-dashed hover:outline-2 hover:outline-zinc-700">
             <img src={kk} alt="" />

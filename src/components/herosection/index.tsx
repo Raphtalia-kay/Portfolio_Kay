@@ -5,8 +5,11 @@ import NavigationBar from "./navigation-bar";
 const HeroSection = () => {
   return (
     <>
-      <NavigationBar />
-      <HeroSectionPage />
+      <section id="1">
+
+        <NavigationBar />
+        <HeroSectionPage />
+      </section>
     </>
   );
 };

@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <>
-      <section className="h-[650px] bg-black px-32 text-white  ">
+      <section id="7" className="h-[650px] bg-black px-32 text-white  ">
         <div className="flex flex-col items-center justify-center lg:mb-6">
           <h1 className="lg:py-[10px] lg:text-[16px]">04. What is Next?</h1>
 

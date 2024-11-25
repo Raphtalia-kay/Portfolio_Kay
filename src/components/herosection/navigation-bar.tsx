@@ -44,7 +44,7 @@ const NavigationBar = () => {
             size="40"
             color="white"
           />
-         
+
           <Drawer
             open={isOpen}
             onClose={toggleDrawer}
@@ -56,46 +56,46 @@ const NavigationBar = () => {
               <div className="flex justify-center lg:pt-5">
                 <table className="w-[150px]">
                   <tr className="">
-                    <td className="lg:py-4 lg:pe-3">
-                      00.
+                    <td className="lg:py-4 lg:pe-3">00.</td>
+                    <td className="">
+                      <a href="#1">Home</a>
                     </td>
-                    <td className="">Home</td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">
-                      01.
+                    <td className="lg:py-4">01.</td>
+                    <td>
+                      <a href="#2">About</a>
                     </td>
-                    <td>About</td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">
-                     02.
+                    <td className="lg:py-4">02.</td>
+                    <td>
+                      <a href="#3">Journey</a>
                     </td>
-                    <td>Journey</td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">
-                     03.
+                    <td className="lg:py-4">03.</td>
+                    <td>
+                      <a href="#4">Skills</a>
                     </td>
-                    <td>Skills</td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">
-                     04.
+                    <td className="lg:py-4">04.</td>
+                    <td>
+                      <a href="#5">Projects</a>
                     </td>
-                    <td>Projects</td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">
-                    05.
+                    <td className="lg:py-4">05.</td>
+                    <td>
+                      <a href="#6">Service</a>
                     </td>
-                    <td>Service</td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">
-                    06.
+                    <td className="lg:py-4">06.</td>
+                    <td>
+                      <a href="#7">Contact Me</a>
                     </td>
-                    <td>Contact Me</td>
                   </tr>
                 </table>
               </div>
@@ -104,16 +104,16 @@ const NavigationBar = () => {
                 Social Account
               </h3>
               <div className="social-app flex justify-center gap-[15px] lg:pt-[28px]">
-                <a href="">
+                <a href="https://www.behance.net/kaythadarsoe">
                   <FaBehanceSquare size="25" color="white" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/kay-thadar-soe-raphtalia-kay-672b981aa/">
                   <FaLinkedin size="25" color="white" />
                 </a>
-                <a href="">
+                <a href="https://github.com/Raphtalia-kay">
                   <FaGithubSquare size="25" color="white" />
                 </a>
-                <a href="">
+                <a href="https://www.instagram.com/kaiaa_kkk/">
                   <FaInstagramSquare size="25" color="white" />
                 </a>
               </div>
