@@ -1,13 +1,10 @@
-import React from "react";
-import { LampContainer } from "../ui/lamp-section-header";
-import { motion } from "framer-motion";
 import { Boxes } from "../ui/background-boxes";
 import { cn } from "../../utils/cn";
 
 const HeroSectionPage = () => {
   return (
     <>
-      <div className="relative flex h-[650px] w-full flex-col items-center justify-center overflow-hidden bg-black">
+      <div className="relative flex h-[700px] w-full flex-col items-center justify-center overflow-hidden bg-black">
         <div className="pointer-events-none absolute inset-0 z-20 h-full w-full bg-black [mask-image:radial-gradient(transparent,white)]" />
 
         <Boxes />

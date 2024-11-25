@@ -16,11 +16,12 @@ const SkillsUiOne = () => {
         </div>
 
         <div className=" ">
-          <div className="tab-row flex justify-center gap-[10px]">
+          <div className="tab-row  flex justify-center gap-[10px]">
+            <div className="border-b-[1px] flex">
             <div
               onClick={() => setType(1)}
               className={cn(
-                "item1 w-[200px] overflow-hidden rounded-md bg-gray-500 bg-opacity-10 px-[24px] py-[12px] text-center shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                "item1 w-[200px] overflow-hidden rounded-sm bg-gray-500 bg-opacity-10 px-[24px] py-[12px] text-center  backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
                   "border-b-[2px] bg-gray-500 bg-opacity-10": type == 1,
                 },
@@ -28,19 +29,18 @@ const SkillsUiOne = () => {
             >
               Web Development
             </div>
-            {/* <div className="item2 w-[200px] px-[24px]  py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10  overflow-hidden rounded-md  text-center">
-              UI/UX Design
-            </div> */}
+         
             <div
               onClick={() => setType(2)}
               className={cn(
-                "item1 w-[200px] overflow-hidden rounded-md bg-gray-500 bg-opacity-10 px-[24px] py-[12px] text-center shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                "item1 w-[200px] overflow-hidden rounded-sm bg-gray-500 bg-opacity-10 px-[24px] py-[12px] text-center backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
                   "border-b-[2px] bg-gray-500 bg-opacity-10": type == 2,
                 },
               )}
             >
               Teaching
+            </div>
             </div>
           </div>
           {type == 1 && (

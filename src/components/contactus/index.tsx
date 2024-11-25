@@ -14,7 +14,7 @@ const ContactUs = () => {
             inbox is always open. Whether you have a question or just want to
             say hi, I’ll try my best to get back to you!
           </p>
-          <button className="w-[180px] text-black rounded-md border-[1px] hover:border-slate-100 hover:bg-black hover:text-white transition-all duration-500 bg-white  px-6 py-3 shadow-inner ">
+          <button className="w-[180px] rounded-md bg-white px-6 py-3 text-black shadow-inner hover:bg-black hover:text-white hover:outline-dashed hover:outline-2 hover:outline-zinc-700">
             Say Hi
           </button>
         </div>

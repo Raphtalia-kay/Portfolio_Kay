@@ -5,25 +5,34 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { CgMenuRightAlt } from "react-icons/cg";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
-import { FaHome } from "react-icons/fa";
-import { IoIosInformationCircle } from "react-icons/io";
-import { GiJourney } from "react-icons/gi";
-import { MdOutlineSettingsSuggest } from "react-icons/md";
-import { GoProjectRoadmap } from "react-icons/go";
-import { MdContactMail } from "react-icons/md";
 
-import { useState } from "react";
+
+import { useEffect, useState } from "react";
+import { cn } from "../../utils/cn";
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50); // Change 50 to the scroll threshold you prefer
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  
   const toggleDrawer = () => {
     setIsOpen((prevState) => !prevState);
   };
 
   return (
     <nav className="fixed top-0 z-50">
-      <div className="navigation-bar flex w-screen items-center justify-between bg-black px-32">
-        <div className="social-app flex gap-2 pt-4">
+      <div className={cn("navigation-bar flex w-screen items-center justify-between bg-black px-32", 
+        scrolled ? "bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm" : ""
+      )}>
+        <div className="social-app flex gap-2 py-[8px]">
           <a href="">
             <FaBehanceSquare size="25" color="white" />
           </a>
@@ -37,7 +46,7 @@ const NavigationBar = () => {
             <FaInstagramSquare size="25" color="white" />
           </a>
         </div>
-        <div className="menu-bar pt-4">
+        <div className="menu-bar py-[8px]">
           <CgMenuRightAlt
             className="cursor-pointer"
             onClick={toggleDrawer}

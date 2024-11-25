@@ -1,10 +1,12 @@
 import { kk } from "../../assets/images";
-import WhatIdo from "./what-I-do";
 
 const About = () => {
   return (
     <>
-      <section id="2" className="about flex h-[650px] items-center justify-center bg-black px-32 text-white">
+      <section
+        id="2"
+        className="about flex h-[650px] items-center justify-center bg-black px-32 text-white"
+      >
         <div className="for-image w-[40%]">
           <div className="profile-image h-[400px] w-[400px] rounded-md bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-md hover:outline-dashed hover:outline-2 hover:outline-zinc-700">
             <img src={kk} alt="" />
@@ -27,10 +29,10 @@ const About = () => {
             empowering the next generation of innovators.
           </p>
           <div className="button-group flex lg:gap-4 lg:py-[24px]">
-            <button className="w-[180px] text-black rounded-md border-[1px] hover:border-slate-100 hover:bg-black hover:text-white transition-all duration-500 bg-white  px-6 py-3 shadow-inner">
+            <button className="w-[180px] rounded-md bg-white px-6 py-3 text-black shadow-inner hover:bg-black hover:text-white hover:outline-dashed hover:outline-2 hover:outline-zinc-700">
               Download CV
             </button>
-            <button className="w-[180px] text-black rounded-md border-[1px] hover:border-slate-100 hover:bg-black hover:text-white transition-all duration-500 bg-white  px-6 py-3 shadow-inner">
+            <button className="w-[180px] rounded-md bg-white px-6 py-3 text-black shadow-inner hover:bg-black hover:text-white hover:outline-dashed hover:outline-2 hover:outline-zinc-700">
               Hire Me
             </button>
           </div>

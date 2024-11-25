@@ -25,7 +25,7 @@ const ExperienceJourney = () => {
               className={cn(
                 "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
-                  "border-l-[2px] bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm":
+                  "border-l-[2px]  bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm":
                     type == 1,
                 },
               )}
