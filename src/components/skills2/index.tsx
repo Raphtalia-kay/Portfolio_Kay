@@ -3,7 +3,7 @@ import Skillbar from "./skill-bar";
 const SkillsUiOne = () => {
   return (
     <>
-      <section className="h-[1200px] bg-black px-32 text-white">
+      <section className="h-[700px] bg-black px-32 text-white">
         <div className="flex flex-col items-center justify-center lg:mb-6">
           <h1 className="lg:py-[10px] lg:text-[28px]">
             03. Skills That I collected

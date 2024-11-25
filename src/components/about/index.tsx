@@ -1,3 +1,4 @@
+import { kk } from "../../assets/images";
 import WhatIdo from "./what-I-do";
 
 const About = () => {
@@ -5,31 +6,31 @@ const About = () => {
     <>
       <section className="about flex h-[650px] items-center justify-center bg-black px-32 text-white">
         <div className="for-image w-[40%]">
-          <div className="profile-image h-[400px] w-[400px] rounded-md bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-md hover:outline-dashed hover:outline-2 hover:outline-zinc-700"></div>
+          <div className="profile-image h-[400px] w-[400px] rounded-md bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-md hover:outline-dashed hover:outline-2 hover:outline-zinc-700">
+            <img src={kk} alt="" />
+          </div>
         </div>
         <div className="about-me w-[60%]">
           <div className="flex items-center gap-[10px]">
             <p className="lg:pb-2 lg:text-[28px]">01. About</p>
             <div className="h-[0.5px] w-[200px] bg-gray-300 bg-opacity-50"></div>
           </div>
-          <p className="lg:pt-2 lg:text-[16px]">
+          <p className="text-justify lg:pt-2 lg:text-[16px]">
             Hello! I'm a dedicated Junior Frontend Web Developer and UI/UX
-            Designer, committed to designing and building user-focused, visually
-            engaging digital experiences. Skilled in ReactJS and CSS, I
-            specialize in crafting seamless, interactive web interfaces,
-            supported by my basic knowledge of PHP. My prowess in UI/UX design
-            is showcased in my ability to create intuitive designs using Figma,
-            prioritizing user-centric principles. I believe in combining
-            technical expertise, creative vision, and user understanding to
-            create standout digital products. Explore my portfolio to see my
-            versatility and the potential I bring to your projects. Let's craft
-            brilliance together!
+            Designer, currently pursuing my degree in ICT at Krirk University. I
+            specialize in designing and building user-focused, visually engaging
+            digital experiences. Skilled in ReactJS and CSS, I create seamless,
+            interactive web interfaces, with a foundation in PHP. My expertise
+            extends to UI/UX design, where I leverage Figma to craft intuitive,
+            user-centric designs. Beyond development, I am a freelance coding
+            instructor for kids, sharing my passion for technology and
+            empowering the next generation of innovators.
           </p>
-          <div className="button-group flex lg:gap-4 lg:py-4">
-            <button className="w-[180px] rounded-md border-[1px] border-slate-100 bg-black bg-opacity-10 px-6 py-3 shadow-inner">
+          <div className="button-group flex lg:gap-4 lg:py-[24px]">
+            <button className="w-[180px] text-black rounded-md border-[1px] hover:border-slate-100 hover:bg-black hover:text-white transition-all duration-500 bg-white  px-6 py-3 shadow-inner">
               Download CV
             </button>
-            <button className="w-[180px] rounded-md border-[1px] border-slate-100 bg-black bg-opacity-10 px-6 py-3 shadow-inner">
+            <button className="w-[180px] text-black rounded-md border-[1px] hover:border-slate-100 hover:bg-black hover:text-white transition-all duration-500 bg-white  px-6 py-3 shadow-inner">
               Hire Me
             </button>
           </div>

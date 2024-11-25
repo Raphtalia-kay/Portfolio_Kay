@@ -6,10 +6,10 @@ const ExperienceJourney = () => {
 
   return (
     <>
-      <div className="w-[100%] px-20">
-        <div className="flex items-center justify-center gap-[10px]">
-          <p className="lg:pb-2 lg:text-[28px]">02. Where I'm worked</p>
-          <div className="h-[0.5px] w-[200px] bg-black bg-opacity-50"></div>
+      <div className="w-[100%] px-20 ">
+        <div className="flex flex-col items-center justify-center gap-[10px]">
+          <p className="lg:pb-2 lg:text-[28px] ">02. Where I'm worked</p>
+          <div className="h-[0.5px] w-[200px] bg-white  bg-opacity-50"></div>
         </div>
         <div className="lower-part flex gap-[30px] pt-[40px]">
           <div className="tab flex h-[250px] flex-col gap-[4px] border-l-[0.5px] border-gray-500">
