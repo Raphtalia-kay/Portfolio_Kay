@@ -5,7 +5,7 @@ import NavigationBar from "./navigation-bar";
 const HeroSection = () => {
   return (
     <>
-      <section id="1">
+      <section id="home">
         <NavigationBar />
         <HeroSectionPage />
       </section>

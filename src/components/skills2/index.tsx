@@ -7,7 +7,7 @@ const SkillsUiOne = () => {
   return (
     <>
       <section
-        id="4"
+        id="skills"
         className="bg-black px-[20px] py-[20px] text-white sm:px-[100px] sm:py-[50px] md:px-[120px]"
       >
         <div className="flex flex-col items-center justify-center pb-[10px] sm:pb-[18px] lg:pb-[24px]">

@@ -18,7 +18,7 @@ function App() {
       <Education />
       <SkillsUiOne />
       <Projects />
-      {/* <ContactUs /> */}
+      <ContactUs />
     </section>
   );
 }

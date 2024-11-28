@@ -4,7 +4,7 @@ import { project1, project2 } from "../../assets/images";
 const SomethingIbuilt = () => {
   return (
     <>
-      <section className="h-[1200px] bg-black px-[30px] py-[20px] text-white sm:px-[100px] sm:py-[50px] md:px-[120px]">
+      <section className=" bg-black px-[30px] py-[20px] text-white sm:px-[100px] sm:py-[50px] md:px-[120px]">
         <div className="flex flex-col items-center justify-center lg:mb-6">
           <h1 className="pb-[6px] sm:text-[20px] md:text-[24px] lg:py-[10px] lg:text-[28px]">
             04. Something I built
@@ -39,7 +39,7 @@ const SomethingIbuilt = () => {
                   Package Control, Atom Package Manager, and npm.
                 </p>
               </div>
-              <div className="flex items-end justify-end gap-[10px] md:gap-[14px] lg:h-[130px] lg:gap-[10px] xl:h-[220px]">
+              <div className="flex items-end  justify-end gap-[10px] md:gap-[14px] lg:h-[130px] lg:gap-[10px] xl:h-[220px] ">
                 <p className="text-[8.5px] sm:text-[11px] md:text-[12px] lg:text-[10px] xl:text-[12px]">
                   React
                 </p>
@@ -107,10 +107,10 @@ const SomethingIbuilt = () => {
               <div className="absolute inset-0 bg-black opacity-10 hover:opacity-50"></div>
             </div>
             <div className="project-detail-side absolute right-0 top-0 h-full w-full flex-1 text-black lg:text-white bg-black bg-opacity-10 pb-[20px] backdrop-blur-sm sm:px-[10px] px-[4px] md:px-[20px] lg:px-[0px] lg:relative xl:pb-0 xl:pt-[40px] hover:outline-dashed lg:hover:outline-none hover:outline-2 hover:outline-zinc-700 py-[4px] sm:py-[2px]  md:py-[4px]" >
-              <p className="pb-[1px] text-[10px] sm:text-[12px] sm:pb-[2px] text-end  lg:pb-0 md:text-[14px] lg:text-[12px] xl:text-[13px]">
+              <p className="pb-[1px] text-[10px] sm:text-[12px] sm:pb-[2px] text-end lg:text-start  lg:pb-0 md:text-[14px] lg:text-[12px] xl:text-[13px]">
                 Feature Projects
               </p>
-              <h3 className=" pb-[6px] sm:pb-[16px] md:pb-[10px] text-end lg:pb-0 text-[14px] sm:text-[16px]  md:text-[18px] lg:text-[16px] xl:text-[20px]">
+              <h3 className=" pb-[6px] sm:pb-[16px] md:pb-[10px] text-end lg:text-start lg:pb-0 text-[14px] sm:text-[16px]  md:text-[18px] lg:text-[16px] xl:text-[20px]">
                 Hotel Page Theme
               </h3>
               <div className="right-0 rounded-md lg:absolute lg:top-[60px] lg:left-0 lg:w-[400px] lg:bg-gray-500 lg:bg-opacity-10 lg:px-[22px]  lg:py-[12px] lg:shadow-inner lg:backdrop-blur-sm lg:hover:outline-dashed lg:hover:outline-2 lg:hover:outline-zinc-700 xl:top-[150px] xl:w-[500px]">
@@ -120,8 +120,8 @@ const SomethingIbuilt = () => {
                   Package Control, Atom Package Manager, and npm.
                 </p>
               </div>
-              <div className="flex items-end justify-end gap-[10px] md:gap-[14px] lg:h-[130px] lg:gap-[10px] xl:h-[220px]">
-                <p className="text-[8.5px] sm:text-[11px] md:text-[12px] lg:text-[10px] xl:text-[12px]">
+              <div className="flex items-end justify-end lg:justify-start gap-[10px] md:gap-[14px] lg:h-[130px] lg:gap-[10px] xl:h-[220px]">
+                <p className="text-[8.5px] sm:text-[11px] md:text-[12px] lg:text-[10px] xl:text-[12px] ">
                   React
                 </p>
                 <p className="text-[8.5px] sm:text-[11px] md:text-[12px] lg:text-[10px] xl:text-[12px]">
@@ -135,7 +135,7 @@ const SomethingIbuilt = () => {
                 </p>
                 
               </div>
-              <div className="flex items-center gap-[20px] justify-end pt-[4px] sm:pt-[10px]  md:pt-[12px] lg:pt-[4px] xl:pt-[15px]">
+              <div className="flex items-center gap-[20px] lg:justify-start justify-end pt-[4px] sm:pt-[10px]  md:pt-[12px] lg:pt-[4px] xl:pt-[15px]">
                 <div className="flex items-center justify-start gap-[20px]  lg:pt-[10px] xl:pt-[15px]">
                   <div className="group">
                     <svg

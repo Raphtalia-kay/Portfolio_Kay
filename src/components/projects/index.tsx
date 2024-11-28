@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <>
       {/* <ProjectsUi1/> */}
-      <section id="5">
+      <section id="projects">
         <SomethingIbuilt />
       </section>
     </>

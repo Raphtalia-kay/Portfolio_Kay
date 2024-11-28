@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <section
-        id="2"
+        id="about"
         className="about flex flex-col items-center justify-center gap-[20px] bg-black  pt-[50px] text-white  sm:gap-[40px]  md:h-screen md:flex-row px-[30px] sm:px-[100px] md:px-[120px]"
       >
         <div className="for-image sm:w-[50%] md:w-[45%] lg:w-[40%] 2xl:w-[35%]">

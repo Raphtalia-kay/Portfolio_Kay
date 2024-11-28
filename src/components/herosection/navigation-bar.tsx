@@ -67,43 +67,43 @@ const NavigationBar = () => {
                   <tr className="">
                     <td className="py-4 text-end px-5">00.</td>
                     <td className="">
-                      <a href="#1">Home</a>
+                      <a href="#home">Home</a>
                     </td>
                   </tr>
                   <tr className="">
                     <td className="py-4 text-end px-5">01.</td>
                     <td>
-                      <a href="#2">About</a>
+                      <a href="#about">About</a>
                     </td>
                   </tr>
                   <tr className="">
                     <td className="py-4 text-end px-5">02.</td>
                     <td>
-                      <a href="#3">Journey</a>
+                      <a href="#journey">Journey</a>
                     </td>
                   </tr>
                   <tr className="">
                     <td className="py-4 text-end px-5">03.</td>
                     <td>
-                      <a href="#4">Skills</a>
+                      <a href="#skills">Skills</a>
                     </td>
                   </tr>
                   <tr className="">
                     <td className="py-4 text-end px-5">04.</td>
                     <td>
-                      <a href="#5">Projects</a>
+                      <a href="#projects">Projects</a>
                     </td>
                   </tr>
-                  <tr className="">
+                  {/* <tr className="">
                     <td className="py-4 text-end px-5">05.</td>
                     <td>
-                      <a href="#6">Service</a>
+                      <a href="#">Service</a>
                     </td>
-                  </tr>
+                  </tr> */}
                   <tr className="">
-                    <td className=" text-end py-4 px-5">06.</td>
+                    <td className=" text-end py-4 px-5">05.</td>
                     <td className="">
-                      <a href="#7">Contact Me</a>
+                      <a href="#contact">Contact Me</a>
                     </td>
                   </tr>
                 </table>
