@@ -1,14 +1,14 @@
-import EducationJourney from "./education-journey";
 import ExperienceJourney from "./experience-journey";
-import WorkJourney from "./work-journey";
 
 const Journey = () => {
   return (
     <>
-      <section id="journey" className=" bg-black px-[30px] sm:px-[100px] md:px-[120px] py-[20px] sm:py-[50px] text-white">
+      <section
+        id="journey"
+        className="bg-black px-[30px] py-[20px] text-white sm:px-[100px] sm:py-[50px] md:px-[120px]"
+      >
         <div className="">
-          {/* <EducationJourney />
-          <WorkJourney /> */}
+        
           <ExperienceJourney />
         </div>
       </section>

@@ -1,4 +1,3 @@
-import ProjectsUi1 from "./project-detail-ui-one";
 import SomethingIbuilt from "./something-i-built";
 
 const Projects = () => {

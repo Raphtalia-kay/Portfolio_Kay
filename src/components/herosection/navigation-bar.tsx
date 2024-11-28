@@ -1,4 +1,4 @@
-import { FaBehanceSquare, FaLightbulb } from "react-icons/fa";
+import { FaBehanceSquare} from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
