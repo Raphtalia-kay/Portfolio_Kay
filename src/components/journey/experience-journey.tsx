@@ -15,13 +15,13 @@ const ExperienceJourney = () => {
     <>
       <div className="w-[100%]  xl:px-20 ">
         <div className="flex flex-col items-center justify-center gap-[10px]">
-          <p className="xl:pb-[6px] lg:text-[28px]">02. Where I'm worked</p>
+          <p className="xl:pb-[6px] sm:text-[20px] md:text-[24px] lg:text-[28px]">02. Where I'm worked</p>
           <div className="h-[0.5px] w-[200px] bg-white bg-opacity-50"></div>
         </div>
 
         
         <div className="lower-part  pt-[4px] sm:pt-[6px] md:pt-[10px]  flex flex-col lg:flex-row lg:gap-[20px]  xl:gap-[30px] lg:pt-[20px] xl:pt-[40px]">
-          <div className="tab flex justify-center flex-row pb-[4px] sm:pb-[6px] md:pb-[20px] lg:h-[250px]  lg:flex-col  lg:border-l-[0.5px] lg:border-gray-500">
+          <div className="tab flex justify-center flex-row pb-[8px] sm:pb-[8px] md:pb-[20px] lg:h-[250px]  lg:flex-col  lg:border-l-[0.5px] lg:border-gray-500">
             <div
               onClick={() => setType(1)}
               className={cn(

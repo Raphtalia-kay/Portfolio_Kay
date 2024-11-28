@@ -16,7 +16,7 @@ function App() {
       <HeroSection />
       <About />
       <Education />
-      {/* <SkillsUiOne /> */}
+      <SkillsUiOne />
       {/* <Projects /> */}
       {/* <ContactUs /> */}
     </section>

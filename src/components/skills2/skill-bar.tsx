@@ -14,10 +14,10 @@ const Skillbar: React.FC<SkillbarProps> = ({ title, percentage, item }) => {
 
   return (
     <div className="skill-box pb-5" ref={ref}>
-      <h3 className="title text-white uppercase">{title}</h3>
+      <h3 className="title text-white uppercase text-[12px] md:text-[14px]">{title}</h3>
       <div className="skill-bar">
         <span className={`skill-per ${item} ` + (visible ? "animate" : "")}>
-          <span className="tooltip text-white text-sm">{percentage}</span>
+          <span className="tooltip text-white text-[10px] sm:text-sm">{percentage}</span>
         </span>
       </div>
     </div>

@@ -29,7 +29,7 @@ const NavigationBar = () => {
 
   return (
     <nav className="fixed top-0 z-50">
-      <div className={cn("navigation-bar flex w-screen items-center justify-between bg-black px-[20px] sm:px-[100px] md:px-[124px]", 
+      <div className={cn("navigation-bar flex w-screen items-center justify-between bg-black px-[30px] sm:px-[100px] md:px-[124px]", 
         scrolled ? "bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm" : ""
       )}>
         <div className="social-app flex gap-2 py-[8px]">

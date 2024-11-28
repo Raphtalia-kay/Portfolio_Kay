@@ -5,7 +5,7 @@ const About = () => {
     <>
       <section
         id="2"
-        className="about flex flex-col items-center justify-center gap-[20px] bg-black  pt-[50px] text-white  sm:gap-[40px]  md:h-screen md:flex-row px-[20px] sm:px-[100px] md:px-[120px]"
+        className="about flex flex-col items-center justify-center gap-[20px] bg-black  pt-[50px] text-white  sm:gap-[40px]  md:h-screen md:flex-row px-[30px] sm:px-[100px] md:px-[120px]"
       >
         <div className="for-image sm:w-[50%] md:w-[45%] lg:w-[40%] 2xl:w-[35%]">
           <div className="profile-image h-[400px] w-[400px] rounded-md bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-md hover:outline-dashed hover:outline-2 hover:outline-zinc-700 max-[938px]:h-[245px] max-[938px]:w-[245px] sm:h-full sm:w-full min-[768px]:h-[280px] min-[768px]:w-[280px] lg:h-[300px] lg:w-[300px] xl:h-[400px] xl:w-[400px]">
