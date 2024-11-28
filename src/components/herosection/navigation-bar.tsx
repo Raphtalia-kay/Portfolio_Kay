@@ -29,7 +29,7 @@ const NavigationBar = () => {
 
   return (
     <nav className="fixed top-0 z-50">
-      <div className={cn("navigation-bar flex w-screen items-center justify-between bg-black px-32", 
+      <div className={cn("navigation-bar flex w-screen items-center justify-between bg-black px-[20px] sm:px-[100px] md:px-[124px]", 
         scrolled ? "bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm" : ""
       )}>
         <div className="social-app flex gap-2 py-[8px]">
@@ -60,56 +60,56 @@ const NavigationBar = () => {
             direction="right"
             className="!w-[500px] !bg-gray-500 !bg-opacity-10 text-white shadow-inner backdrop-blur-sm"
           >
-            <div className="lg:py-[80px]">
-              <h3 className="text-center lg:text-[24px]">Menu</h3>
-              <div className="flex justify-center lg:pt-5">
-                <table className="w-[150px]">
+            <div className="flex flex-col justify-center items-center h-screen ">
+              <h3 className="text-center text-[22px] lg:text-[24px]">Menu</h3>
+              <div className="flex justify-center ">
+                <table className="w-[200px]   ">
                   <tr className="">
-                    <td className="lg:py-4 lg:pe-3">00.</td>
+                    <td className="py-4 text-end px-5">00.</td>
                     <td className="">
                       <a href="#1">Home</a>
                     </td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">01.</td>
+                    <td className="py-4 text-end px-5">01.</td>
                     <td>
                       <a href="#2">About</a>
                     </td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">02.</td>
+                    <td className="py-4 text-end px-5">02.</td>
                     <td>
                       <a href="#3">Journey</a>
                     </td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">03.</td>
+                    <td className="py-4 text-end px-5">03.</td>
                     <td>
                       <a href="#4">Skills</a>
                     </td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">04.</td>
+                    <td className="py-4 text-end px-5">04.</td>
                     <td>
                       <a href="#5">Projects</a>
                     </td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">05.</td>
+                    <td className="py-4 text-end px-5">05.</td>
                     <td>
                       <a href="#6">Service</a>
                     </td>
                   </tr>
                   <tr className="">
-                    <td className="lg:py-4">06.</td>
-                    <td>
+                    <td className=" text-end py-4 px-5">06.</td>
+                    <td className="">
                       <a href="#7">Contact Me</a>
                     </td>
                   </tr>
                 </table>
               </div>
 
-              <h3 className="text-center lg:pt-[20px] lg:text-[24px]">
+              <h3 className="text-center pt-[20px] lg:text-[24px]">
                 Social Account
               </h3>
               <div className="social-app flex justify-center gap-[15px] lg:pt-[28px]">

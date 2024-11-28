@@ -15,10 +15,10 @@ function App() {
     <section>
       <HeroSection />
       <About />
-      <Education />
-      <SkillsUiOne />
-      <Projects />
-      <ContactUs />
+      {/* <Education /> */}
+      {/* <SkillsUiOne /> */}
+      {/* <Projects /> */}
+      {/* <ContactUs /> */}
     </section>
   );
 }
