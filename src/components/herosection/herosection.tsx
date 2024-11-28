@@ -10,7 +10,7 @@ const HeroSectionPage = () => {
         <Boxes />
         <h1
           className={cn(
-            "relative z-20 text-xl text-white text-[18px] sm:text-[30px] md:text-[40px] lg:text-[55px] xl:text-[70px] ",
+            "relative z-20 text-xl text-white text-[24px] sm:text-[30px] md:text-[40px] lg:text-[55px] xl:text-[70px] ",
           )}
         >
           Hello!! I am <span className="">Raphtalia K</span>

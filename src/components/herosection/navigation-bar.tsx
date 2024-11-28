@@ -1,4 +1,4 @@
-import { FaBehanceSquare} from "react-icons/fa";
+import { FaBehanceSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -70,31 +70,31 @@ const NavigationBar = () => {
                 <table className="w-[200px]">
                   <tr className="">
                     <td className="px-5 py-4 text-end">00.</td>
-                    <td className="">
+                    <td className="" onClick={() => setIsOpen(false)}>
                       <a href="#home">Home</a>
                     </td>
                   </tr>
                   <tr className="">
                     <td className="px-5 py-4 text-end">01.</td>
-                    <td>
+                    <td onClick={() => setIsOpen(false)}>
                       <a href="#about">About</a>
                     </td>
                   </tr>
                   <tr className="">
                     <td className="px-5 py-4 text-end">02.</td>
-                    <td>
+                    <td onClick={() => setIsOpen(false)}>
                       <a href="#journey">Journey</a>
                     </td>
                   </tr>
                   <tr className="">
                     <td className="px-5 py-4 text-end">03.</td>
-                    <td>
+                    <td onClick={() => setIsOpen(false)}>
                       <a href="#skills">Skills</a>
                     </td>
                   </tr>
                   <tr className="">
                     <td className="px-5 py-4 text-end">04.</td>
-                    <td>
+                    <td onClick={() => setIsOpen(false)}>
                       <a href="#projects">Projects</a>
                     </td>
                   </tr>
