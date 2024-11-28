@@ -13,19 +13,21 @@ const ExperienceJourney = () => {
 
   return (
     <>
-      <div className="w-[100%] px-20">
+      <div className="w-[100%]  xl:px-20 ">
         <div className="flex flex-col items-center justify-center gap-[10px]">
-          <p className="lg:pb-2 lg:text-[28px]">02. Where I'm worked</p>
+          <p className="xl:pb-[6px] lg:text-[28px]">02. Where I'm worked</p>
           <div className="h-[0.5px] w-[200px] bg-white bg-opacity-50"></div>
         </div>
-        <div className="lower-part flex gap-[30px] pt-[40px]">
-          <div className="tab flex h-[250px] flex-col gap-[4px] border-l-[0.5px] border-gray-500">
+
+        
+        <div className="lower-part  pt-[4px] sm:pt-[6px] md:pt-[10px]  flex flex-col lg:flex-row lg:gap-[20px]  xl:gap-[30px] lg:pt-[20px] xl:pt-[40px]">
+          <div className="tab flex justify-center flex-row pb-[4px] sm:pb-[6px] md:pb-[20px] lg:h-[250px]  lg:flex-col  lg:border-l-[0.5px] lg:border-gray-500">
             <div
               onClick={() => setType(1)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                "item1 w-[80px] text-[12px] sm:text-[16px] px-[2px] py-[4px] sm:w-[150px] text-center lg:text-start sm:px-[4px] sm:py-[8px] lg:w-[200px] lg:px-[24px] lg:py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
-                  "border-l-[2px]  bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm":
+                  "border-b-[2px] lg:border-b-[0px] lg:border-l-[2px]    bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm":
                     type == 1,
                 },
               )}
@@ -35,9 +37,9 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(2)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                "item2 w-[80px] text-[12px] sm:text-[16px] px-[2px] py-[4px] sm:w-[150px] text-center lg:text-start sm:px-[4px] sm:py-[8px] lg:w-[200px] lg:px-[24px] lg:py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
-                  "border-l-[2px]": type == 2,
+                  "border-b-[2px] lg:border-b-[0px] lg:border-l-[2px]   bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm": type == 2,
                 },
               )}
             >
@@ -46,9 +48,9 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(3)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                "item3 w-[80px] text-[12px] sm:text-[16px] px-[2px] py-[4px] sm:w-[150px] text-center lg:text-start sm:px-[4px] sm:py-[8px] lg:w-[200px] lg:px-[24px] lg:py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
-                  "border-l-[2px]": type == 3,
+                  "border-b-[2px] lg:border-b-[0px] lg:border-l-[2px]   bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm": type == 3,
                 },
               )}
             >
@@ -57,9 +59,9 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(4)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                "item4 w-[80px] text-[12px] sm:text-[16px] px-[2px] py-[4px] sm:w-[150px] text-center lg:text-start sm:px-[4px] sm:py-[8px] lg:w-[200px] lg:px-[24px] lg:py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
-                  "border-l-[2px]": type == 4,
+                  "border-b-[2px] lg:border-b-[0px] lg:border-l-[2px]   bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm": type == 4,
                 },
               )}
             >
@@ -68,48 +70,47 @@ const ExperienceJourney = () => {
             <div
               onClick={() => setType(5)}
               className={cn(
-                "item1 w-[200px] px-[24px] py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
+                "item5 w-[80px] text-[12px] sm:text-[16px] px-[2px] py-[4px] sm:w-[150px] text-center lg:text-start sm:px-[4px] sm:py-[8px] lg:w-[200px] lg:px-[24px] lg:py-[12px] shadow-inner backdrop-blur-sm hover:bg-gray-500 hover:bg-opacity-10",
                 {
-                  "border-l-[2px]": type == 5,
+                  "border-b-[2px] lg:border-b-[0px] lg:border-l-[2px]   bg-gray-500 bg-opacity-10 shadow-inner backdrop-blur-sm": type == 5,
                 },
               )}
             >
               Item5
             </div>
           </div>
-          <div className="">
-            {/* {Journey?.map({position, company_name, id} )=> (
-            
-          )} */}
+
+
+          <div className="sm:px-[20px] lg:px-[0px]">
             {journeyList.map((j) => (
               <> {type == j.id && (
                 <div className="tab-details">
                   <div className="tab-title flex items-center gap-[10px]">
-                    <h3 className="text-[20px]">{j.position} </h3>
-                    <h3 className="text-[20px]">{j.company_name}</h3>
+                    <h3 className="text-[13px] sm:text-[16px] md:text-[20px]">{j.position} </h3>
+                    <h3 className="text-[12px] sm:text-[16px] md:text-[20px]">{j.company_name}</h3>
                   </div>
-                  <p className="pt-[5px] text-[13px]">{j.year_from_to}</p>
+                  <p className="pt-[2px] sm:pt-[3px] md:pt-[5px] text-[10px] sm:text-[13px]">{j.year_from_to}</p>
                   <div className="tab-paragraph flex gap-[10px] lg:pt-[20px]">
                     <TbArrowBadgeRightFilled size="40" />
-                    <p className="text-[14px]">
+                    <p className=" text-[12px] sm:text-[14px]">
                     {j.detail1}
                     </p>
                   </div>
                   <div className="tab-paragraph flex gap-[10px] lg:pt-[20px]">
                     <TbArrowBadgeRightFilled size="40" />
-                    <p className="text-[14px]">
+                    <p className=" text-[12px] sm:text-[14px]">
                     {j.detail2}
                     </p>
                   </div>
                   <div className="tab-paragraph flex gap-[10px] lg:pt-[20px]">
                     <TbArrowBadgeRightFilled size="40" />
-                    <p className="text-[14px]">
+                    <p className=" text-[12px] sm:text-[14px]">
                     {j.detail3}
                     </p>
                   </div>
                   <div className="tab-paragraph flex gap-[10px] lg:pt-[20px]">
                     <TbArrowBadgeRightFilled size="40" />
-                    <p className="text-[14px]">
+                    <p className=" text-[12px] sm:text-[14px]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Accusamus, veniam voluptates! Voluptas nemo pariatur nesciunt
                       blanditiis illum unde nostrum explicabo sequi perspiciatis.

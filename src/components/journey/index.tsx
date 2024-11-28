@@ -5,8 +5,8 @@ import WorkJourney from "./work-journey";
 const Journey = () => {
   return (
     <>
-      <section id="3" className="h-[800px] bg-black px-32 pt-[50px] text-white">
-        <div className="flex">
+      <section id="3" className=" bg-black px-[20px] sm:px-[100px] md:px-[120px] py-[20px] sm:py-[50px] text-white">
+        <div className="">
           {/* <EducationJourney />
           <WorkJourney /> */}
           <ExperienceJourney />
