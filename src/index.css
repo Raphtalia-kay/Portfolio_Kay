@@ -6,6 +6,7 @@
    
     font-family: 'SF Mono', sans-serif;
     box-sizing: border-box;
+    user-select: none;
                                                 
 }
 html { scroll-behavior: smooth; }
