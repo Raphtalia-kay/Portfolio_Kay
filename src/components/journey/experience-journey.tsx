@@ -108,15 +108,7 @@ const ExperienceJourney = () => {
                     {j.detail3}
                     </p>
                   </div>
-                  <div className="tab-paragraph flex gap-[10px] lg:pt-[20px]">
-                    <TbArrowBadgeRightFilled size="40" />
-                    <p className=" text-[12px] sm:text-[14px]">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Accusamus, veniam voluptates! Voluptas nemo pariatur nesciunt
-                      blanditiis illum unde nostrum explicabo sequi perspiciatis.
-                      Laudantium non rem, dolore quos rerum magnam veritatis?
-                    </p>
-                  </div>
+                  
                 </div>
               )}</>
             ))}
